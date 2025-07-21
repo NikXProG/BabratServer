@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package babrat.server.grpc.models;
+
+
+import "google/protobuf/empty.proto";
+
+message CreateTableModel{
+  string TableName = 1;
+  repeated ColumnModel columns = 2;
+}
+
+message ColumnModel{
+  string ColumnName = 1;
+  string DataType = 2;
+  string Default = 3;
+  bool IsNullable = 4;
+  bool IsPrimaryKey = 5;
+  bool IsUnique = 6;
+}
+
+service CreateTableService {
+  rpc CreateTable(CreateTableModel) returns (CreateTableModel);
+}
+
+message CreateTableResponse {
+  int32 id = 1;
+}

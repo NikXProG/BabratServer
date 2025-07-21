@@ -1,0 +1,2 @@
+namespace Babrat.Domain.Models;
+

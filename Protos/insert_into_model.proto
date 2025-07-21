@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "google/protobuf/wrappers.proto";
+
+package babrat.server.grpc.models;
+
+message InsertModel {
+  string table_name = 1;          
+  repeated string column_names = 2; 
+  repeated InsertRow rows = 3;  
+}
+
+message InsertRow {
+  repeated google.protobuf.StringValue values = 1;    
+}
+
+service InsertService {
+  rpc InsertInto(InsertModel) returns (InsertModel);
+}

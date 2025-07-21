@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Babrat.Server", "Babrat.Server\Babrat.Server.csproj", "{B862F7F9-D187-4C61-BA4D-A13673CD9AE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Babrat.Server.Core", "Babrat.Server.Core\Babrat.Server.Core.csproj", "{AF87079D-8656-4524-AB60-022AE25ADBB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Babrat.Server.REST.API", "Babrat.Server.REST.API\Babrat.Server.REST.API.csproj", "{4AFF7978-932C-4DD7-9E73-4F45E421C523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Babrat.Server.CalciteParser", "Babrat.Server.CalciteParser\Babrat.Server.CalciteParser.csproj", "{6AA4FC3F-02A4-4792-869C-75C41041CAFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Babrat.Domain.Models", "Babrat.Domain.Models\Babrat.Domain.Models.csproj", "{8008CC2F-9537-4C21-9621-17A7DBD6F7A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C78C8514-BC91-441E-B8A0-A823EEFA82D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Babrat.Server.REST.API.Models", "Babrat.Server.REST.API.Models\Babrat.Server.REST.API.Models.csproj", "{11150C44-BE39-4553-8CD9-03E45F96977B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B862F7F9-D187-4C61-BA4D-A13673CD9AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B862F7F9-D187-4C61-BA4D-A13673CD9AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B862F7F9-D187-4C61-BA4D-A13673CD9AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B862F7F9-D187-4C61-BA4D-A13673CD9AE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF87079D-8656-4524-AB60-022AE25ADBB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF87079D-8656-4524-AB60-022AE25ADBB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF87079D-8656-4524-AB60-022AE25ADBB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF87079D-8656-4524-AB60-022AE25ADBB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AFF7978-932C-4DD7-9E73-4F45E421C523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AFF7978-932C-4DD7-9E73-4F45E421C523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AFF7978-932C-4DD7-9E73-4F45E421C523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AFF7978-932C-4DD7-9E73-4F45E421C523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AA4FC3F-02A4-4792-869C-75C41041CAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA4FC3F-02A4-4792-869C-75C41041CAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA4FC3F-02A4-4792-869C-75C41041CAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA4FC3F-02A4-4792-869C-75C41041CAFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8008CC2F-9537-4C21-9621-17A7DBD6F7A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8008CC2F-9537-4C21-9621-17A7DBD6F7A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8008CC2F-9537-4C21-9621-17A7DBD6F7A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8008CC2F-9537-4C21-9621-17A7DBD6F7A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11150C44-BE39-4553-8CD9-03E45F96977B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11150C44-BE39-4553-8CD9-03E45F96977B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11150C44-BE39-4553-8CD9-03E45F96977B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11150C44-BE39-4553-8CD9-03E45F96977B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B862F7F9-D187-4C61-BA4D-A13673CD9AE5} = {C78C8514-BC91-441E-B8A0-A823EEFA82D0}
+		{6AA4FC3F-02A4-4792-869C-75C41041CAFA} = {C78C8514-BC91-441E-B8A0-A823EEFA82D0}
+		{AF87079D-8656-4524-AB60-022AE25ADBB6} = {C78C8514-BC91-441E-B8A0-A823EEFA82D0}
+		{4AFF7978-932C-4DD7-9E73-4F45E421C523} = {C78C8514-BC91-441E-B8A0-A823EEFA82D0}
+		{11150C44-BE39-4553-8CD9-03E45F96977B} = {C78C8514-BC91-441E-B8A0-A823EEFA82D0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="DynamicExpresso.Core" Version="2.19.0" />
+        <PackageReference Include="IKVM" Version="8.11.2"/>
+        <PackageReference Include="IKVM.Maven.Sdk" Version="1.9.2" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.0-preview.2.25163.2" />
+        <PackageReference Include="Microsoft.SqlServer.TransactSql.ScriptDom" Version="170.28.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <MavenReference Include="org.apache.calcite:calcite-server:1.39.0" />
+        <MavenReference Include="org.apache.calcite:calcite-core:1.39.0" />
+        <MavenReference Include="org.slf4j:slf4j-api" Version="2.0.9" />
+        <MavenReference Include="org.slf4j:slf4j-simple" Version="2.0.9" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Babrat.Domain.Models\Babrat.Domain.Models.csproj" />
+        <ProjectReference Include="..\Babrat.Server.Core\Babrat.Server.Core.csproj" />
+    </ItemGroup>
+
+</Project>
